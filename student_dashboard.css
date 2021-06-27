@@ -1,0 +1,36 @@
+
+body{
+    margin: 0 auto;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.main_nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-inline-start:20px;
+    padding-inline-end: 20px;
+    font-size: 1.2em;
+    background-color: #0e6e51;
+}
+nav li{
+    padding: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+  }
+
+.right{
+    margin-left: auto;
+}
+
+section{
+    margin: 0 20%;
+}
+@media only screen and (max-width: 600px) {
+    .main_nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
+}

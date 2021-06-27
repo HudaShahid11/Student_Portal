@@ -1,0 +1,60 @@
+body{
+    background: url(bg3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+h1{
+    font-size: 4em;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin: 0px;
+    text-align: center;
+}
+
+hr{
+    background-color: #000000;
+    max-width: 65px;
+    height: 3px;
+    border-color: black;
+    
+  }
+button{
+    background-color: #000000;
+    color: #e2dbdb;
+    padding: 8px 32px;
+    border: 2px solid #000000;
+    border-radius: 200px;
+    font-size: 1.5em;
+    font-family: 'Akaya Kanadaka', cursive;
+
+  }
+button:hover{
+    background-color: #0e6e51;
+    border: 4px solid #0e6e51;
+  }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{}
+  
+.container{
+  height: 100vh;
+  display: flex;
+  
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 3em;
+     
+  }
+  button{
+    font-size: 1em;
+  }
+}
